@@ -69,3 +69,6 @@ gem "pg", "~> 1.1"
 gem 'bootstrap',     '~> 4.1.1'
 gem 'material-sass', '~> 4.1.1'
 gem "jquery-rails", "~> 4.3"
+
+gem "rails_bootstrap_navbar", "~> 3.0"
+gem "haml-rails", "~> 1.0"

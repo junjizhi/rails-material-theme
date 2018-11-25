@@ -1,0 +1,15 @@
+= navbar fixed: :top do
+  = navbar_collapse id: 'navigation' do
+    = navbar_group class: 'foo', id: 'menu' do
+      = navbar_dropdown "Stuff" do
+        = navbar_dropdown_item "One", '/one'
+        = navbar_dropdown_item "Two", '/two'
+        - if true # check if user is admin, maybe like "if current_user.try(:admin?)"
+          = navbar_dropdown_divider
+          = navbar_item "Admin Dashboard", '/admin'
+          = navbar_item "Users", '/admin/users'
+    = navbar_group align: 'right' do
+      - if current_user.present?
+        = navbar_item "Log Out", '/users/sign_out'
+      - else
+        = navbar_item "Log In", '/users/sign_in'
