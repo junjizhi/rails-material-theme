@@ -65,3 +65,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added at 2018-11-20 23:00:56 -0500 by jz:
 gem "pg", "~> 1.1"
+
+gem 'bootstrap',     '~> 4.1.1'
+gem 'material-sass', '~> 4.1.1'
+gem "jquery-rails", "~> 4.3"
