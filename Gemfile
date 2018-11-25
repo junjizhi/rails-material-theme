@@ -72,3 +72,5 @@ gem "jquery-rails", "~> 4.3"
 
 gem "rails_bootstrap_navbar", "~> 3.0"
 gem "haml-rails", "~> 1.0"
+
+gem "bootstrap_form", ">= 4.0.0"
